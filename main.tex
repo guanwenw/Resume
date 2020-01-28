@@ -1,0 +1,349 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+
+
+
+%
+% Machine Learning, NLP, Statistics
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry} % Document margins
+
+\name{Guanwen Wang} % Your name
+\address{(703)-498-9238 \\ guanwenw@gmail.com \\ 2015 Magarity Ct, Falls Church, VA 22043 } % Your phone number and email
+\address{www.linkedin.com/in/guanwenwang} % Your address
+
+
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Skill Highlights}
+
+\begin{rSubsection}{6 year Application Development: Java, Python, Perl, MySQL, Bash, PHP, JavaScript, HTML, RabbitMQ, LAMP, Git, SVN, Linux, OSX, Windows}{}{}
+
+\end{rSubsection}
+
+\begin{rSubsection}{2 year Identity and Access Management, Single Sign On: OAuth 2.0, SAML 2.0, OpenID 2.0}{}{}
+
+\end{rSubsection}
+
+\end{rSection}
+
+
+
+\begin{rSection}{Work Experience}
+%------------------------------------------------
+\begin{rSubsection}{Software Engineer, Senior Associate}{10/17/2016 - Present}{Capital One Financial Corporation}{1680 Capital One Dr, McLean, VA 22102}
+
+\item Lead, implement and own the SSO Self Service Portal(SSP) that shorten the implementation process from one hours to a few minutes. SSP can automatically retrieve submission history based on customer login credentials in homepage, automatically check the integrity of customer's submission, suggest protocols based on customer's submission to the general questionnaire, and automatically create standard SAML / OAuth / OpenID in Ping Federate by invoking APIs, store customer, application, submission details in AWS RDS. 
+
+\item Lead, redesign and own SSO Login Page, serving for all applications and all employees in corporate Wi-Fi and VPN, compatible for PCs, MAC, and Mobile phones, plugin password changing self-service, big win for offshore Call Center reps who all had to call HelpDesk for resets every 60 days, bring UI pattern up to Capital One latest standards, dynamically display content based on user's IP that is inside or outside Capital One, add password-is-expiring and password-has-expired use-cases
+
+\item Lead two team members to implement/update the SAML/OAuth/OpenID protocols in Ping Federate based on app teams' request
+
+\item Design, implement and own the data center disk space cleanup script. 
+\item Standardize and own SSOFactory 
+\item Design solutions for those wishing to SSO-enable and/or add MFA to their applications
+\item Create and own MFA-Include in Active Directory Group
+\item Create SharePoint SSO team site, upload and maintain documents
+\item Create GitHub SSO team repository, commit and maintain code
+\item Create and maintain Cloud Authentication Patterns for Ping SSO apps
+\item Create and document Windows 2012 Server AWS EC2 instance
+\item Setup Apache and Tomcat in Windows Server 2012
+\item Join DR Validation, Production Rollouts, Weekday/Weekend Oncalls
+
+\end{rSubsection}
+
+\begin{rSubsection}{Software Engineering Intern, EMC Excellence: Bronze Award}{05/11/2015 - 08/28/2015}{Dell EMC, Unified Storage Division}{176 South St, Hopkinton, MA 01748}
+
+\item Designed and developed a scale-out log file management system based on producer-consumer model that shorten GB level log file handling by 30 times, logging to MySQL and monitor interface. It is deployed to EMC cloud and serving in 3 teams.
+Tool stack: Python, RabbitMQ, LAMP, JavaScript, Perl, Bash and TortoiseSVN
+
+\item Implemented and documented a HDD corruption check module that passed QA tests and it was integrated and released as part of tool suite. 
+Tool stack: Perl, TortoiseSVN
+
+\end{rSubsection}
+
+
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{Software Engineering Intern}{08/04/2014 - 12/26/2014}{EXA Corporation, Physics Research and Development Department}{55 Network Dr, Burlington, MA 01803}
+
+\item Designed and developed new analysis, search and management tools from scratch based on requests and feedback from Physics staff
+
+\item Automated simulation submission and post-process that significantly increased the efficiency and accuracy
+
+\item Maintained, refined and re-factored Physics Validation website and database. Tool stack: Python, JavaScript, PHP, MySQL, Perl, HTML, Bash
+
+\end{rSubsection}
+
+\end{rSection}
+
+
+
+
+\begin{rSection}{Project Experience}
+
+
+\begin{rSubsection}{Python - Study of Stock Trading System(Technical analysis)}{Dec 2017}{}
+\item Designed and implemented stock trading scripts to extract web stock data, created features, applied machine learning models, outputted evaluation results for model performance, made decisions based on prediction results.
+\item Created visualization interface to identify real-time stock price patterns, calculated technical indicators, and suggested automated trades based on the findings.
+\item Applied Black Scholes model to evaluate risk for option trading strategy, and validated the profit loss ratio result with real trading data
+\item Applied natural language processing to extract useful keywords from public news for predicting stock movements.
+\end{rSubsection}
+
+\begin{rSubsection}{Python - Study of Time Series vs Machine Learning Models on Stock Price}{Dec 2016}{}
+\item Designed, implemented and compared traditional time series prediction models(Decomposition, Linear regression, Random Walk, Auto Regressive, Moving Average) with machine learning models(Naive Bayes Classifier, Bagging, Decision Tree, Random Forest)
+\item Applied Yahoo Finance AAPL historical data as sample to compare the prediction accuracy rates, found monthly results perform better than daily ones. Naive Bayes performs worst since it is based on conditional independence and very poor on outliers.
+\end{rSubsection}
+
+
+
+\end{rSection}
+
+
+
+%--------------------------------------------------------------------------
+%	EDUCATION SECTION
+%--------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf University of New Hampshire}\\
+{\bf M.S. in Computer Science}\hfill{\bf Sep 2013 - Aug 2016}\\
+Teaching Assistant for undergraduate JAVA and Algorithm courses\\
+{\bf M.S. in Physics, PhD candidate}\hfill{\bf Sep 2009 - Aug 2013}\\
+Research Assistant for NASA Projects, Teaching Assistant for undergraduate Physics courses\\
+{\bf University of Science and Technology of China}\\
+{\bf B.S. in Geophysics}\hfill{\bf Sep 2005 - Jul 2009}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+%------------------------------------------------
+
+\begin{rSection}{Publication}
+\begin{rSubsection}{Background subtraction for the Cluster/CODIF plasma ion mass spectrometer}{Sep 2013}{}
+
+\item Geoscientific Instrumentation, Methods and Data Systems doi:10.5194/gid-3-567-2013  September 27, 2013  Authors: Chris Mouikis, Lynn Kistler, {\bf Guanwen Wang}, Yanhua Liu   
+
+\item Modified and merged classic Tsyganenko Magnetic Field Model with GEOPACK, providing simulation results to support the paper
+\item Developed calibration algorithm of background subtraction theory and produced high-level ion specification data of Inner Magnetosphere for space science community (available at caa.etec.esa.int)
+
+\end{rSubsection}
+
+\begin{rSubsection}{Prediction feedback in intelligent traffic systems}{Jul 2009}{}
+
+\item Physica A: Statistical Mechanics and its Applications Physica A 388, 4651  July 18, 2009  Authors: Chuanfei Dong, Xu Ma, {\bf Guanwen Wang}, Xiaoyan Sun, Binghong Wang
+
+\item Updated the traffic flow model by adding prediction feedback strategy (PFS) and Congestion Coefficient Feedback Strategy (CCFS) with FORTRAN that improved the traffic efficiency
+
+\end{rSubsection}
+
+\begin{rSubsection}{Dust voids in collision-dominated plasmas with negative ions}{Feb 2009}{}
+
+\item Phys. Plasmas 16, 023701  February 12, 2009  Authors: Xiang Zheng, Yinhua Chen, Zuquan Hu, {\bf Guanwen Wang}, Feng Huang, Chuanfei Dong, M.Y. Yu
+
+\item Simulated the characteristics of the collision-dominated plasma process with Mathematica, provided the simulation results that strongly support the theory
+
+\end{rSubsection}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+%Section content\ldots
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+
+\begin{rSection}{Skill Highlights}
+\begin{rSubsection}{Python, Machine Learning, Statistics}{}{}
+\item 
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Publication}
+\begin{rSubsection}{Background subtraction for the Cluster/CODIF plasma ion mass spectrometer}{}{}
+\item Geoscientific Instrumentation, Methods and Data Systems doi:10.5194/gid-3-567-2013  September 27, 2013 / Authors: Chris Mouikis, Lynn Kistler, {\bf Guanwen Wang}, Yanhua Liu     
+
+
+\item Modified and merged classic Tsyganenko Magnetic Field Model with GEOPACK, providing  simulation results to support the whole theory
+\item Developed calibration algorithm of background subtraction theory and produced high-level ion specification data of Inner Magnetosphere for space science community (available at caa.etec.esa.int)
+
+\end{rSubsection}
+
+\begin{rSubsection}{Prediction feedback in intelligent traffic systems}{}{}
+\item  Physica A: Statistical Mechanics and its Applications Physica A 388, 4651  July 18, 2009
+ Authors: Chuanfei Dong, Xu Ma, {\bf Guanwen Wang}, Xiaoyan Sun, Binghong Wang
+
+\item  Modified and simulated the traffic flow model with prediction feedback strategy (PFS) and Congestion Coefficient Feedback Strategy (CCFS) with FORTRAN.
+
+\end{rSubsection}
+
+\begin{rSubsection}{Dust voids in collision-dominated plasmas with negative ions}{}{}
+\item {Phys. Plasmas 16, 023701  February 12, 2009 / Authors: Xiang Zheng, Yinhua Chen, Zuquan Hu, {\bf Guanwen Wang}, Feng Huang, Chuanfei Dong, M.Y. Yu}
+
+\item Modeled and simulated the characteristics of the collision-dominated plasma process with Mathematica
+
+\end{rSubsection}
+\end{rSection}
+
+
+
+\iffalse
+\begin{rSection}{Skill Set}
+\begin{rSubsection2}{\bf C++, Java, Python, Perl, JavaScript, PHP, MySQL, RabbitMQ, HTML, Bash, SVN, Git}
+\end{rSubsection2}
+\end{rSection}
+
+\begin{rSection}{Project Experience}
+
+
+
+
+
+
+
+\fi
+
+
+\iffalse  
+
+
+\end{rSection}
+
+
+
+\begin{rSubsection}{Software Quality Assurance Engineer}{May 2008 - Aug 2009}{LeEco, Marketing Research and Development Department}{Shanghai, CHINA}
+
+\item Communicated with business analysis to gather requirements
+
+\item Created test plan, executed benchmarks and analyzed results for screen display performance
+
+\item Validated and evaluated product performance and reported bugs
+
+\item Designed and built database and tested with MySQL scripts
+
+\item Automated business model submission and post-process in Python
+
+\end{rSubsection}
+%------------------------------------------------
+
+\end{rSection}
+learn from 
+Jul 5 email
+what is ML, linear is not ML
+
+add results and polish model
+how to evaluate the results
+
+\begin{rSubsection}{Python - Titanic Machine Learning from Disaster}{Mar - Apr 2016}{}
+\item Cleaned raw data sets, used feature engineering by normalizing the title from the name and creating linear combination of the raw features
+\item Built classification model with training sets, based on "features" like passengers' gender and class
+\item Predict survival on the Titanic
+\end{rSubsection}
+
+
+deleted
+
+\begin{rSubsection}{Python - Study of Stock Trading System(Technical analysis)}{Dec 2017}{}
+\item Designed and implemented stock trading scripts to extract web stock data, created features, applied machine learning models, outputted evaluation results for model performance, made decisions based on prediction results.
+\item Created visualization interface to identify real-time stock price patterns, calculated technical indicators, and suggested automated trades based on the findings.
+\item Applied Black Scholes model to evaluate risk for option trading strategy, and validated the profit loss ratio result with real trading data
+\item Applied natural language processing to extract useful keywords from public news for predicting stock movements.
+\end{rSubsection}
+
+\begin{rSubsection}{Python - Study of Time Series vs Machine Learning Models on Stock Price}{Aug 2016}{}
+\item Designed, implemented and compared traditional time series prediction models(Decomposition, Linear regression, Random Walk, Auto Regressive, Moving Average) with machine learning models(Naive Bayes Classifier, Bagging, Decision Tree, Random Forest)
+\item Applied Yahoo Finance AAPL historical data as sample to compare the prediction accuracy rates, found monthly results perform better than daily ones. Naive Bayes performs worst since it is based on conditional independence and very poor on outliers.
+\end{rSubsection}
+
+
+
+
+
+
+
+\begin{rSubsection}{Solutions Consultant}{Jan 2014 - May 2015}{University of New Hampshire, Programming Assistance Center}{Durham, NH}
+
+\item Provided technical guidance in C/C++ and Java to over 200+ undergraduates
+
+\item Tutored 3 undergraduate and graduate students per semester, held weekly 1-on-1 meeting to help reinforce curriculum and strengthen weak areas
+
+\item Worked with other consultants to deal with complicated problems
+
+\end{rSubsection}
+
+
+
+\begin{rSubsection}{C++ - Memory Manager}{Dec 2013}{}
+\item Using Posix threads, implemented file scanner to summarize the word frequency in hundreds text files
+\item Based on the contiguous memory allocation scheme, implemented the best-fit policy with compaction.
+\end{rSubsection}
+
+
+, Identity and Access Management, Single Sign On Team
+
+Validation Division
+
+Ph.D Candidate
+
+
+
+\begin{rSubsection}{Python - Titanic Machine Learning from Disaster}{Aug 2016}{}
+\item Cleaned raw data sets, used feature engineering by normalizing the title from the name and creating linear combination of the raw features
+\item Built classification model with training sets, based on "features" like passengers' gender and class
+\item Predict survival on the Titanic
+\end{rSubsection}
+
+
+\begin{rSubsection}{Java - Grading System for Dept of Computer Science}{Apr 2016}{}
+\item Designed and implemented a grading system that can grade labs/assignments and handle the run-time exceptions and log grading results, increased the accuracy and efficiency significantly 
+\end{rSubsection}
+
+\begin{rSubsection}{Python - DNA Sequence File Management Application}{Mar 2015}{}
+\item Implemented Python script to download and sort hundreds of DNA Sequence files to local server
+\item Implemented a search script to find file by name or specific sequence in the file
+\end{rSubsection}
+
+\begin{rSubsection}{Java - Games: Break Bricks, Tetris, Angry Bird, 2048}{Dec 2014}{}
+\item Designed and implemented the basic and customized features
+\end{rSubsection}
+
+\begin{rSubsection}{Java - Parallelization of Flow Visualization Tool}{Nov 2014}{}
+\item Integrated multi-thread to the particle display section of the Flow Visualization Tool that significantly improved application performance and minimized system resource usage
+\end{rSubsection}
+
+\fi
